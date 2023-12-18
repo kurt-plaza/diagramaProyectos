@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-18T21:39:23.441Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="X4couT3EbNN1vx9FLPsJ" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-18T21:40:00.964Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="r_a9ZloJlZ3Uxnels4BM" version="22.1.11" type="github">
   <diagram name="Página-1" id="bMW2IbAEzdGuLqOlzrSL">
     <mxGraphModel dx="1306" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -33,7 +33,7 @@
             <mxPoint x="74" y="-15" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="y5oixIiV6MIW93EJlMAJ-8" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.vpn_gateway;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+        <mxCell id="y5oixIiV6MIW93EJlMAJ-8" value="VPN Site to Site" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.vpn_gateway;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="435.5" y="260" width="69" height="72" as="geometry" />
         </mxCell>
         <mxCell id="y5oixIiV6MIW93EJlMAJ-9" value="3CX Nodo" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png" vertex="1" parent="1">
