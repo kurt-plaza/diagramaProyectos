@@ -1,9 +1,65 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.7.6">
   <diagram name="Página-1" id="tHiXiIsf-glSobxSchNS">
-    <mxGraphModel>
+    <mxGraphModel dx="1242" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="6CADlqCJ_C6BE7VLTjXd-2" value="On-Premise" style="sketch=0;outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_vpc;strokeColor=#879196;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#879196;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="40" width="370" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="6CADlqCJ_C6BE7VLTjXd-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="45" y="80" width="315" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="6CADlqCJ_C6BE7VLTjXd-1" value="AWS" style="sketch=0;outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_vpc;strokeColor=#879196;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#879196;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="40" width="280" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="6CADlqCJ_C6BE7VLTjXd-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="6CADlqCJ_C6BE7VLTjXd-3" target="6CADlqCJ_C6BE7VLTjXd-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6CADlqCJ_C6BE7VLTjXd-3" value="" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="165" y="190" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6CADlqCJ_C6BE7VLTjXd-5" value="Servidor 3CX - 10.0.4.6" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6CADlqCJ_C6BE7VLTjXd-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6CADlqCJ_C6BE7VLTjXd-6" target="6CADlqCJ_C6BE7VLTjXd-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6CADlqCJ_C6BE7VLTjXd-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6CADlqCJ_C6BE7VLTjXd-6" target="6CADlqCJ_C6BE7VLTjXd-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="205" y="500" />
+              <mxPoint x="660" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6CADlqCJ_C6BE7VLTjXd-15" value="DataSync&lt;br&gt;&lt;br&gt;Sincronización de EFS y S3 cada 3 Horas" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6CADlqCJ_C6BE7VLTjXd-14">
+          <mxGeometry x="0.1725" y="-1" relative="1" as="geometry">
+            <mxPoint x="-19" y="29" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6CADlqCJ_C6BE7VLTjXd-6" value="/efs-grabaciones/recordings" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.efs_share;fillColor=#E05243;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="170" y="330" width="69" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6CADlqCJ_C6BE7VLTjXd-8" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;br&gt;Archivo Grabaciones" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.s3;" vertex="1" parent="1">
+          <mxGeometry x="620" y="295" width="80" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="6CADlqCJ_C6BE7VLTjXd-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6CADlqCJ_C6BE7VLTjXd-10" target="6CADlqCJ_C6BE7VLTjXd-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6CADlqCJ_C6BE7VLTjXd-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6CADlqCJ_C6BE7VLTjXd-10" target="6CADlqCJ_C6BE7VLTjXd-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="660" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6CADlqCJ_C6BE7VLTjXd-10" value="APP" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="550" y="120" width="76.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="6CADlqCJ_C6BE7VLTjXd-11" value="Data - Grabaciones" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.dynamo_db;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="710" y="126" width="72" height="81" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
