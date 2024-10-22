@@ -16,7 +16,7 @@
         <mxCell id="6CADlqCJ_C6BE7VLTjXd-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="6CADlqCJ_C6BE7VLTjXd-3" target="6CADlqCJ_C6BE7VLTjXd-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6CADlqCJ_C6BE7VLTjXd-3" value="" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png" vertex="1" parent="1">
+        <mxCell id="6CADlqCJ_C6BE7VLTjXd-3" value="Debian" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png" vertex="1" parent="1">
           <mxGeometry x="165" y="190" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="6CADlqCJ_C6BE7VLTjXd-5" value="Servidor 3CX - 10.0.4.6" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
